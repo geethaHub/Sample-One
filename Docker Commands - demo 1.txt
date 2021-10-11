@@ -1,0 +1,36 @@
+Explore the following docker commands:  
+In the middle just try to answer the questions given to you
+
+docker run centos
+docker run -it centos bash
+>cat /etc/*release*
+>exit
+clear
+-------------------------
+docker ps
+
+docker run -d centos sleep 30
+docker ps
+docker ps -a 
+docker run -d centos sleep 1000
+docker stop <name/id>
+------------------
+docker rm <name/id>
+docker ps -a
+docker rm <id1,id2,id3>
+---------------------------------
+docker images
+docker rmi centos
+------------------------
+docker run -d centos sleep 60
+docker rmi centos
+------------------
+docker pull ubuntu
+-----------------------
+docker run -d ubuntu sleep 100
+docker ps
+docker exec <id> cat /etc/*release*
+
+
+
+
